@@ -1,0 +1,30 @@
+h1 {
+    color: aqua;
+    background: black;
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: blueviolet;
+    background: black;
+    font-family: "Verdana", sans-serif;
+    font-size: 20px;
+    text-align: right;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+center {
+    margin-top: 50px;
+}
+
+/* Add a class for hover effect */
+.hover-effect:hover {
+    color: red;
+}

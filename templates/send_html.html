@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/c1.css')}}">
+
+    
+
+   
+    <script>
+        function changeColor(element) {
+            element.classList.toggle("hover-effect");
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <!-- Use onmouseover and onmouseout to trigger the JavaScript function -->
+        <h1 onmouseover="changeColor(this)" onmouseout="changeColor(this)">
+            Hey {{name}} click here to watch dunki movie poster
+        </h1>
+
+        <img src="{{url_for('static', filename='images/Dunki.jpg')}}" alt="Movie Poster" width="300">
+
+        <h1> <a href="{{url_for('function')}}"> go to function</a></h1>
+
+        
+    </center>
+</body>
+</html>
